@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 130" fill="#ffffff" role="img" aria-label="Eco Adrenaline">
+  <text x="0" y="98" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="110" letter-spacing="-4">eco</text>
+  <g transform="translate(208 18)">
+    <circle cx="46" cy="46" r="44" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <path d="M18 64 L38 30 L48 44 L58 26 L78 64 Z" fill="#ffffff"/>
+  </g>
+  <g font-family="Arial Narrow, Arial, sans-serif" font-weight="900" font-size="38" letter-spacing="1">
+    <text x="318" y="44">ADRE</text>
+    <text x="318" y="80">NALI</text>
+    <text x="318" y="116">NE</text>
+  </g>
+</svg>
