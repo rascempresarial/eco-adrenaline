@@ -84,7 +84,7 @@
   /* ====== HEADER TRANSPARENTE SOBRE O HERO ====== */
   .site-header{position:absolute;top:0;left:0;width:100%;z-index:100}
   .header-inner{display:flex;align-items:center;justify-content:space-between;padding:26px 0}
-  .brand svg{height:40px;width:auto;color:#fff}
+  .brand img{height:38px;width:auto;display:block}
   .nav{display:flex;align-items:center;gap:34px}
   .nav a.link{color:rgba(255,255,255,.92);font-weight:500;font-size:.95rem;position:relative;transition:color .2s}
   .nav a.link::after{content:"";position:absolute;left:0;bottom:-5px;width:0;height:1.5px;background:#fff;transition:width .25s}
@@ -177,7 +177,8 @@
   /* RODAPÉ */
   footer{background:var(--night);color:rgba(255,255,255,.68);padding:68px 0 0}
   .foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:40px;padding-bottom:48px}
-  footer .brand-foot svg{height:40px;color:#fff;margin-bottom:18px}
+  footer .brand-foot{margin-bottom:18px}
+  footer .brand-foot img{height:38px;width:auto}
   footer p{font-size:.92rem;line-height:1.8}
   footer h4{font-family:'Sora',sans-serif;color:#fff;font-size:1rem;margin-bottom:18px;font-weight:600}
   footer ul{list-style:none}
@@ -224,18 +225,7 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a href="#topo" class="brand" aria-label="Eco Adrenaline">
-      <svg viewBox="0 0 520 130" fill="currentColor" aria-hidden="true">
-        <text x="0" y="98" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="110" letter-spacing="-4">eco</text>
-        <g transform="translate(208 18)">
-          <circle cx="46" cy="46" r="44" fill="none" stroke="currentColor" stroke-width="4"/>
-          <path d="M18 64 L38 30 L48 44 L58 26 L78 64 Z" fill="currentColor"/>
-        </g>
-        <g font-family="Arial Narrow, Arial, sans-serif" font-weight="900" font-size="38" letter-spacing="1">
-          <text x="318" y="44">ADRE</text>
-          <text x="318" y="80">NALI</text>
-          <text x="318" y="116">NE</text>
-        </g>
-      </svg>
+      <img src="assets/logo-branca.png" alt="Eco Adrenaline" width="978" height="180">
     </a>
 
     <button class="menu-toggle" id="toggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
@@ -437,12 +427,8 @@
 <footer>
   <div class="wrap foot-grid">
     <div>
-      <div class="brand-foot" style="color:#fff">
-        <svg viewBox="0 0 520 130" fill="currentColor" style="height:40px">
-          <text x="0" y="98" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="110" letter-spacing="-4">eco</text>
-          <g transform="translate(208 18)"><circle cx="46" cy="46" r="44" fill="none" stroke="currentColor" stroke-width="4"/><path d="M18 64 L38 30 L48 44 L58 26 L78 64 Z" fill="currentColor"/></g>
-          <g font-family="Arial Narrow, Arial, sans-serif" font-weight="900" font-size="38" letter-spacing="1"><text x="318" y="44">ADRE</text><text x="318" y="80">NALI</text><text x="318" y="116">NE</text></g>
-        </svg>
+      <div class="brand-foot">
+        <img src="assets/logo-branca.png" alt="Eco Adrenaline" width="978" height="180">
       </div>
       <p>Agência de turismo de aventura no Paraná. Levamos exploradores aos destinos mais incríveis do Brasil e do mundo, com segurança e paixão por explorar.</p>
     </div>
